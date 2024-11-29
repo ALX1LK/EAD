@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <h1>Meu Site Pessoal</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#" onclick="mostrarAba('sobre-mim')">Sobre Mim</a></li>
+                    <li><a href="#" onclick="mostrarAba('meus-hobbies')">Meus Hobbies</a></li>
+                    <li><a href="#" onclick="mostrarAba('contato')">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre-mim" class="aba">
+            <div class="container">
+                <h2>Sobre Mim</h2>
+                <div class="about-content">
+                    <img src="imagens/minha-foto.jpg" alt="Minha Foto">
+                    <div class="text">
+                        <p>Olá! Meu nome é <strong>Alexsander Quevedo</strong>. Sou apaixonado por explorar o mundo ao meu redor e descobrir coisas novas. Amo a sensação de liberdade ao acampar em meio à natureza, ouvindo o som do vento e apreciando as estrelas.</p>
+                        <p>Adoro também passar horas mergulhado em livros que expandem minha mente e me levam a universos desconhecidos. Estar perto de pessoas com energia positiva é uma das coisas que mais valorizo na vida — especialmente aquelas que, assim como eu, buscam crescer e evoluir constantemente.</p>
+                        <p>Meu objetivo é sempre viver intensamente, aproveitar cada momento e inspirar os outros ao meu redor a fazer o mesmo!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="meus-hobbies" class="aba hidden">
+            <div class="container">
+                <h2>Meus Hobbies</h2>
+                <div class="hobbies">
+                    <div class="hobby">
+                        <img src="imagens/hobby1.jpg" alt="Hobby 1">
+                        <p>Ler livros </p>
+                    </div>
+                    <div class="hobby">
+                        <img src="imagens/hobby2.jpg" alt="Hobby 2">
+                        <p>Programar e explorar novas tecnologias</p>
+                    </div>
+                    <div class="hobby">
+                        <img src="imagens/hobby3.jpg" alt="Hobby 3">
+                        <p>Fazer trilhas e acampar</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="aba hidden">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Entre em contato comigo pelos links abaixo:</p>
+                <p>Email: <a href="mailto:alexsandersousas2004@gmail.com">alexsandersousas2004@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/alexsander-quevedo-079522243/" target="_blank">Meu LinkedIn</a></p>
+                <p>GitHub: <a href="https://github.com/ALX1LK" target="_blank">Meu GitHub</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Meu Site Pessoal | Feito com 💙</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
